@@ -45,7 +45,7 @@ Only frequencies in the range:
 fL < f < fH are passed → Band-pass behavior
 System Representation
 Time domain:
-y(t) = x(t) * (h1(t) * h2(t))
+y(t) = x(t)convolved(h1(t) convolve h2(t))
 Frequency domain:
 Y(jw) = X(jw) * H1(jw) * H2(jw)
 High Pass Filter
